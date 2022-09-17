@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(242, 236, 239);
+}
+.drops{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drop{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    /* border-radius: 50%; */
+    border-radius: 20% 80% 68% 32% / 49% 79% 21% 51%  ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+.drop::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20% 80% 68% 32% / 49% 79% 21% 51% ;
+    
+}
+.drop::after{
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20% 80% 68% 32% / 49% 79% 21% 51% ;
+    
+}
+
+.drop1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    right: 80px;
+    top: 75%;
+    /* border-radius: 50%; */
+    border-radius: 57% 43% 50% 50% / 60% 60% 40% 40%  ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+.drop1::before{
+    content: '';
+    position: absolute;
+    top: 55px;
+    left: 25px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20% 80% 68% 32% / 49% 79% 21% 51% ;
+    
+}
+.drop1::after{
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20% 80% 68% 32% / 49% 79% 21% 51% ;
+    
+}
+
+.drop2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: transparent;
+    left: 75px;
+    top: 80%;
+    /* border-radius: 50%; */
+    border-radius: 82% 18% 81% 19% / 50% 50% 50% 50%  ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+.drop2::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20% 80% 68% 32% / 49% 79% 21% 51% ;
+    
+}
+.drop2::after{
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20% 80% 68% 32% / 49% 79% 21% 51% ;
+    
+}
